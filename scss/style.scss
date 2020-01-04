@@ -1485,6 +1485,12 @@ header {
         position: relative;
         left: 50%; transform: translateX(-50%);
     }
+
+    .slick-dots {
+        position: absolute;
+        left: 0;
+        bottom: 6%;
+    }
 }
 
 .block-11 {
@@ -2160,6 +2166,10 @@ header {
             transition: .2s;
         }
 
+        .background:before {
+            background: #fff;
+        }
+
         .burger-menu-button:after {
             position: absolute;
             top: 8px;
@@ -2169,6 +2179,10 @@ header {
             height: 4px;
             background: #383838;
             transition: .2s;
+        }
+
+        .background:after {
+            background: #fff;
         }
 
         .burger-menu-button_active,
@@ -2185,7 +2199,8 @@ header {
             padding: 10px 15px;
             border-radius: 4px;
             transition: .1s linear;
-            padding-bottom: 40px;
+            padding-top: 20px;
+            padding-bottom: 30px;
         }
 
         .burger-link__item:nth-child(7) {
