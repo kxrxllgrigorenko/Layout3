@@ -1972,6 +1972,8 @@ header {
       -webkit-transition: .2s;
       -o-transition: .2s;
       transition: .2s; }
+    .burger-menu .dark {
+      background: #383838; }
     .burger-menu .background:after {
       background: #fff; }
     .burger-menu .burger-menu-button_active,

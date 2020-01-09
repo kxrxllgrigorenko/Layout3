@@ -2181,6 +2181,10 @@ header {
             transition: .2s;
         }
 
+        .dark {
+            background: #383838;
+        }
+
         .background:after {
             background: #fff;
         }
@@ -2190,6 +2194,27 @@ header {
         .burger-menu-button_active:after {
             background: #fff;
         }
+
+        // .burger-menu-button_active {
+        //     background: transparent;
+        // }
+
+        // .burger-menu-button_active:before,
+        // .burger-menu-button_active:after {
+        //     margin-left: -10px;
+        // }
+
+        // .burger-menu-button_active:before {
+        //     background: #fff;
+        //     transform: rotate(-45deg) translateY(10px) translateX(-1px);
+        //     width: 26px;
+        // }
+
+        // .burger-menu-button_active:after {
+        //     background: #fff;
+        //     transform: rotate(45deg) translateY(-10px) translateX(-1px);
+        //     width: 26px;
+        // }
 
         .burger-link__item {
             font-family: 'Raleway Extra-Bold';
